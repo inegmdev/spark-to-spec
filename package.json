@@ -1,0 +1,29 @@
+{
+  "name": "spark-to-spec",
+  "version": "1.0.0",
+  "description": "AI skill for Claude Code and Gemini CLI — takes a raw product idea through a 5-phase validation framework, producing either a kill rationale or an engineering-ready PRD.",
+  "keywords": [
+    "claude-code",
+    "gemini-cli",
+    "claude-code-skills",
+    "ai-skill",
+    "product-management",
+    "spark-to-spec"
+  ],
+  "author": "Islam NEGM <islam.g.negm@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inegmdev/spark-to-spec"
+  },
+  "files": [
+    "skills/",
+    "install.js"
+  ],
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
