@@ -10,12 +10,17 @@ A conversational framework that takes a raw product idea through 5 phases of rig
 ## Quick Start
 
 On invocation:
-1. Scan the current directory for `*.spark.md` files
+1. **Version Check**: Seamlesly check for updates.
+   - Run `npm view spark-to-spec version` and compare with the currently installed version.
+   - If a newer version exists, ask the user if they want to upgrade.
+   - If approved, run `npm install -g spark-to-spec@latest` (or the appropriate upgrade command), reload skill, and proceed.
+2. Scan the current directory for `*.spark.md` files
    - Zero found → create a new session from the provided spark input
    - One found → read it, resume from `current-phase` in the YAML frontmatter
    - Multiple found → list them with `idea` and `status`, ask user which to open
-2. Run the current phase — see [PHASES.md](PHASES.md)
-3. Save progress to `.spark.md` after every user response — see [FORMAT.md](FORMAT.md)
+3. Run the current phase — see [PHASES.md](PHASES.md)
+4. Save progress to `.spark.md` after every user response — see [FORMAT.md](FORMAT.md)
+
 
 ## Core Behaviors
 
