@@ -1,0 +1,60 @@
+/* Hallmark · theme: Spark Deep Space · genre: atmospheric
+ * axes: dark · Tomorrow + Geist · mint-accent
+ */
+
+:root {
+  /* Colors - Deep Space Palette (Hue 260) */
+  --color-paper:    oklch(15% 0.02 260);
+  --color-paper-2:  oklch(18% 0.025 260);
+  --color-rule:     oklch(30% 0.015 260);
+  --color-neutral:  oklch(58% 0.01 260);
+  --color-muted:    oklch(72% 0.008 260);
+  --color-ink:      oklch(95% 0.005 260);
+  --color-accent:   oklch(75% 0.18 160); /* The Spark */
+  --color-focus:    oklch(60% 0.22 160);
+  
+  /* Typography - 2+1 Rule */
+  --font-display:   "Tomorrow", system-ui, sans-serif;
+  --font-body:      "Geist", system-ui, sans-serif;
+  --font-outlier:   "JetBrains Mono", monospace;
+
+  /* Scale - Major Third (1.25) */
+  --text-xs:        0.64rem;
+  --text-sm:        0.8rem;
+  --text-base:      1rem;
+  --text-md:        1.25rem;
+  --text-lg:        1.5625rem;
+  --text-xl:        1.9531rem;
+  --text-2xl:       2.4414rem;
+  --text-3xl:       3.0518rem;
+  --text-4xl:       3.8147rem;
+  --text-display:   clamp(2.75rem, 5vw + 1rem, 5.25rem);
+
+  /* Spacing - 4pt Scale */
+  --space-1:        4px;
+  --space-2:        8px;
+  --space-3:        12px;
+  --space-4:        16px;
+  --space-6:        24px;
+  --space-8:        32px;
+  --space-12:       48px;
+  --space-16:       64px;
+  --space-20:       80px;
+  --space-24:       96px;
+  --space-32:       128px;
+
+  /* Rules & Radii */
+  --radius-sm:      2px;
+  --radius-md:      4px;
+  --radius-lg:      8px;
+  --rule-width:     1px;
+
+  /* Motion - Hallmark timing canon */
+  --ease-out:       cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:        cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out:    cubic-bezier(0.65, 0, 0.35, 1);
+  
+  --dur-micro:      120ms;
+  --dur-short:      220ms;
+  --dur-long:       420ms;
+}

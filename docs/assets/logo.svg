@@ -1,0 +1,9 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- The Frame (Structure) -->
+  <rect x="10" y="10" width="80" height="80" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" opacity="0.3" />
+  <path d="M10 30H90M10 50H90M10 70H90M30 10V90M50 10V90M70 10V90" stroke="currentColor" stroke-width="0.5" opacity="0.1" />
+  
+  <!-- The Spark (Idea) -->
+  <path d="M50 20L55 45L80 50L55 55L50 80L45 55L20 50L45 45L50 20Z" fill="var(--color-accent, #00FFCC)" />
+  <circle cx="50" cy="50" r="4" fill="white" opacity="0.8" />
+</svg>
