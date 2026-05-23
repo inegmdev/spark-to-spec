@@ -1,5 +1,7 @@
 # spark-to-spec
 
+![spark-to-spec banner](docs/assets/repo-banner.png)
+
 A conversational validation framework for technical founders. This skill takes a raw product idea (the "spark") and challenges it through a 5-phase rigorous validation process, producing either a kill rationale or an engineering-ready PRD.
 
 ## Features
