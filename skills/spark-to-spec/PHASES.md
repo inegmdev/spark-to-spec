@@ -13,7 +13,7 @@ Conduct a Socratic interview covering these three areas — one question at a ti
 
 Research during Phase 1: Search for existing solutions, adjacent products, and market context. Challenge the user's assumptions with what you find.
 
-**Deliverable**: Idea Brief & Problem Map written to the Phase 1 section of `.spark.md`.
+**Deliverable**: Idea Brief & Problem Map written to the Phase 1 section of `.spark.md`. Use terse language and fragments.
 
 ---
 
@@ -28,7 +28,7 @@ Run a Mom Test-style interrogation — one question at a time:
 2. Force quantification of friction — has the target customer spent *time, money, or manual effort* on this problem? A spreadsheet hack, a custom script, a paid workaround = real pain. "It'd be nice" = not real pain.
 3. Research: Search Reddit, Hacker News, industry forums, and product reviews for complaints about current solutions and evidence of the problem in the wild. Surface what you find.
 
-**Deliverable**: Unbiased User Interview Insights written to Phase 2 section.
+**Deliverable**: Unbiased User Interview Insights written to Phase 2 section. Use terse language and fragments.
 
 ---
 
@@ -71,7 +71,7 @@ Score the idea on 6 dimensions (1–5 each). Use research findings and the user'
 3. Apply the Differentiation Filter — for every proposed feature, ask: "Does this feature directly contribute to our differentiation from existing alternatives?" If no, cut it from the MVP scope.
 4. Research: Search competitor feature sets and product pages. Find the actual gap — be specific about where this product outperforms existing options.
 
-**Deliverable**: Value Proposition Canvas & Core Feature List written to Phase 3 section. Features should be named, scoped, and tied to a specific need.
+**Deliverable**: Value Proposition Canvas & Core Feature List written to Phase 3 section. Use terse language and fragments. Features should be named, scoped, and tied to a specific need.
 
 ---
 
@@ -108,7 +108,7 @@ First, detect the product type from Phase 1–3 findings. Then produce the appro
 
 Frame the brief from the end user's perspective, not the builder's. The question to answer: "What does the user *experience*?"
 
-**Deliverable**: Product-type-appropriate prototype brief written to Phase 4 section.
+**Deliverable**: Product-type-appropriate prototype brief written to Phase 4 section. Use terse language and fragments.
 
 ---
 
@@ -127,6 +127,6 @@ Build the PRD section by section, grilling the user on each:
 6. **Metrics Baseline** — precise telemetry, not vanity metrics. What events to instrument on day one? What retention signal tells you the product is working?
 7. **Out of Scope** — explicit list of what is NOT in the MVP. Prevents scope creep.
 
-**Deliverable**: Full PRD written to Phase 5 section. Update frontmatter: `status: complete`, `current-phase: complete`.
+**Deliverable**: Full PRD written to Phase 5 section. Use terse language and fragments throughout. Update frontmatter: `status: complete`, `current-phase: complete`.
 
 Add a final Progress Log entry: `[DATE] Phase 5 complete — PRD finalized.`

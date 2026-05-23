@@ -81,6 +81,10 @@ Rationale: ...
 ### Metrics Baseline
 ### Out of Scope
 -->
+
+## Chat Summary
+
+<!-- Running, highly compressed log of the conversation. Updated after every turn. -->
 ```
 
 ## YAML Frontmatter Fields
@@ -99,8 +103,8 @@ Rationale: ...
 
 ## Resume Logic
 
-1. Read YAML frontmatter
-2. Check `current-phase` — resume from that phase
-3. Read existing phase sections for context before asking new questions
-4. Add a new Progress Log entry: `[DATE] Session resumed — Phase N continued`
-5. Update `last-updated` on every save
+1. Read YAML frontmatter.
+2. Check `current-phase` — resume from that phase.
+3. Read existing phase sections and `Chat Summary` for context.
+4. Add a new Progress Log entry: `[DATE] Session resumed — Phase N continued`.
+5. Update `last-updated`, phase content, and `Chat Summary` on **every turn**.
