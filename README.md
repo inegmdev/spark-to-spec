@@ -1,8 +1,18 @@
 # spark-to-spec
 
-![spark-to-spec banner](docs/assets/repo-banner.png)
+<picture>
+  <source srcset="docs/assets/logo-animation-intro.gif" type="image/gif">
+  <img src="docs/assets/repo-banner.png" alt="spark-to-spec banner">
+</picture>
 
-A conversational validation framework for technical founders. This skill takes a raw product idea (the "spark") and challenges it through a 5-phase rigorous validation process, producing either a kill rationale or an engineering-ready PRD.
+A conversational validation framework for technical founders. This skill takes a raw product idea (the "spark") and challenges it through a 5-phase rigorous validation process, producing either a kill rationale or an engineering draft PRD (Product Requirement Document) viable for spec-driven frameworks.
+
+## Why spark-to-spec?
+
+Spec-driven development (SDD) frameworks (like `speckit`) are powerful for building what you ask for, but they don't challenge *what* you are building. `spark-to-spec` fills this gap by:
+- **Challenging the Idea**: Ensuring the solution is viable before a single line of spec is written.
+- **Validating the Pain**: Confirming that the problem actually exists and is worth solving.
+- **Preparing the Input**: It doesn't replace SDD; it prepares the clear, validated input they require to be effective.
 
 ## Features
 
@@ -46,7 +56,7 @@ If a `.spark.md` file already exists in your current directory, the skill will a
 3.  **Viability Gate** - Scored assessment on 6 dimensions.
 4.  **Phase 3: Map** - Align features to underserved needs.
 5.  **Phase 4: Prototype Brief** - Produce a tailored brief for your product type (Web, Mobile, CLI, API, etc.).
-6.  **Phase 5: MVP Spec** - Generate an engineering-ready PRD.
+6.  **Phase 5: MVP Spec** - Generate an engineering draft PRD.
 
 ## License
 
