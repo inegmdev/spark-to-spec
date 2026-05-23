@@ -114,7 +114,7 @@ Frame the brief from the end user's perspective, not the builder's. The question
 
 ## Phase 5: De-Risk & Document the MVP Spec
 
-**Objective**: Harden validated findings into an engineering-ready PRD.  
+**Objective**: Harden validated findings into an engineering draft PRD.  
 **Book anchor**: *Testing Business Ideas* (Bland/Osterwalder), *The Lean Startup* (Ries)
 
 Build the PRD section by section, grilling the user on each:
@@ -127,6 +127,6 @@ Build the PRD section by section, grilling the user on each:
 6. **Metrics Baseline** — precise telemetry, not vanity metrics. What events to instrument on day one? What retention signal tells you the product is working?
 7. **Out of Scope** — explicit list of what is NOT in the MVP. Prevents scope creep.
 
-**Deliverable**: Full PRD written to Phase 5 section. Use terse language and fragments throughout. Update frontmatter: `status: complete`, `current-phase: complete`.
+**Deliverable**: Full draft PRD written to Phase 5 section. Use terse language and fragments throughout. Update frontmatter: `status: complete`, `current-phase: complete`.
 
-Add a final Progress Log entry: `[DATE] Phase 5 complete — PRD finalized.`
+Add a final Progress Log entry: `[DATE] Phase 5 complete — draft PRD finalized.`

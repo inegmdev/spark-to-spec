@@ -1,11 +1,11 @@
 ---
 name: spark-to-spec
-description: Conversational skill that takes a raw product idea (the "spark") and challenges it through a structured 5-phase validation framework — ending in either a kill rationale or an engineering-ready PRD. Conducts Socratic grilling with live web research to validate viability before committing to specs. Persists progress in a .spark.md file for resumable sessions. Use when user wants to validate a product idea, challenge assumptions, go from idea to spec, run a spark through the framework, or invokes spark-to-spec.
+description: Conversational skill that takes a raw product idea (the "spark") and challenges it through a structured 5-phase validation framework — ending in either a kill rationale or an engineering draft PRD (Product Requirement Document) viable for spec-driven frameworks. Conducts Socratic grilling with live web research to validate viability before committing to specs. Persists progress in a .spark.md file for resumable sessions. Use when user wants to validate a product idea, challenge assumptions, go from idea to spec, run a spark through the framework, or invokes spark-to-spec.
 ---
 
 # Spark-to-Spec
 
-A conversational framework that takes a raw product idea through 5 phases of rigorous validation, producing either a kill rationale or a full PRD. Built for technical founders.
+A conversational framework that takes a raw product idea through 5 phases of rigorous validation, producing either a kill rationale or a draft PRD. Built for technical founders to validate ideas before handing them off to spec-driven development (SDD) frameworks.
 
 ## Quick Start
 
@@ -20,6 +20,8 @@ On invocation:
    - Multiple found → list them with `idea` and `status`, ask user which to open
 3. Run the current phase — see [PHASES.md](PHASES.md)
 4. Save progress to `.spark.md` after every user response — see [FORMAT.md](FORMAT.md)
+5. **On Completion**: Once Phase 5 is done, provide a clear hand-off hint:
+   - *"The draft PRD is now ready. You can take this document to any spec-driven development (SDD) framework (e.g., `speckit`) to begin implementation with a validated foundation."*
 
 
 ## Core Behaviors
