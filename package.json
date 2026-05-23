@@ -1,7 +1,7 @@
 {
   "name": "spark-to-spec",
-  "version": "0.3.2",
-  "description": "AI skill for Claude Code and Gemini CLI — takes a raw product idea through a 5-phase validation framework, producing either a kill rationale or an engineering-ready PRD.",
+  "version": "0.3.3",
+  "description": "AI skill for Claude Code and Gemini CLI — takes a raw product idea through a 5-phase validation framework, producing either a kill rationale or an engineering draft PRD.",
   "keywords": [
     "claude-code",
     "gemini-cli",
